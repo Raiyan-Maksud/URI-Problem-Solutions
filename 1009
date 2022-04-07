@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    char name;
+    double sal, sold, a, b;
+    scanf("%s %lf %lf",&name,&sal,&sold);
+    a = sold*0.15;
+    b = sal+a;
+    printf("TOTAL = R$ %.2lf\n",b);
+
+
+    return 0;
+}
